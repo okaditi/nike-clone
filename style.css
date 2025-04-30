@@ -1,0 +1,153 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header background with overlay */
+header {
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+                      url(../image.jpg); */
+    background-color: rgba(228, 226, 226, 0.893);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+}
+
+/* Logo */
+.main2 .logo img{
+    float: left;
+    width:  50px;
+    height: auto;
+    /* border-radius: 30%;
+    border: 1px solid #fff; */
+}
+
+/* First Nav Bar (Top Right) */
+.main1 {
+    font-size: smaller;
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px 10px;
+    background-color: rgba(228, 226, 226, 0.893);
+    height: 28px;
+}
+
+.main1 ul {
+    list-style: none;
+    display: flex;
+    gap: 2px;
+}
+
+.main1 ul li {
+    position: relative;
+}
+
+/* Second Nav Bar (Centered Below First) */
+.main2 {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.main2 ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.main2 ul li {
+    position: inline;
+}
+
+/* Link styling */
+ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 6px 12px;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+
+ul li a:hover,
+ul li.active a {
+    background-color:rgba(228, 226, 226, 0.893);;
+    color: black;
+}
+
+/* Title styling */
+.title {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 72px;
+    color: black;
+}
+
+/* Button section */
+.button {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    /* gap: 20px; */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn {
+    border: 2px solid white;
+    padding: 5px 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Dropdown submenu */
+/* .sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(0, 45, 117);
+    min-width: 120px;
+    z-index: 1000;
+}
+
+.main1 ul li:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sub-menu ul li {
+    padding: 8px 12px;
+}
+
+.sub-menu ul li a {
+    padding: 0;
+    display: block;
+} */
+
