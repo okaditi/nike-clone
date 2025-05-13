@@ -1,48 +1,28 @@
 /* Reset and base styles */
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Header background with overlay */
+/* Header background */
 header {
     background-color: rgba(228, 226, 226, 0.605);
     height: 100vh;
     background-size: cover;
     background-position: center;
     position: relative;
-    /* color: white; */
-}
-
-.jordan img{
-    margin: 0px;
-    float: left;
-    width:  26px;
-    height: 25px;
-    margin-top: 6px;
-    margin-left: 45px;
-}
-/* Logo */
-.logo img{
-    margin: 0px;
-    float: left;
-    width:  58px;
-    height: 22px;
-    margin-top: 20px;
-    margin-left: 45px;
 }
 
 /* First Nav Bar (Top Right) */
 .main1 {
-    font-size:12px;
+    font-size: 12px;
     display: flex;
     justify-content: flex-end;
     padding: 12px 60px;
-    /* background-color: rgba(228, 226, 226, 0.297); */
     height: 38px;
-    font-weight:500px;
+    font-weight: 500;
 }
 
 .main1 ul {
@@ -56,54 +36,105 @@ header {
     position: relative;
 }
 
-/* Second Nav Bar (Centered Below First) */
+.main1 ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 0 6px;
+}
+
+.main1 ul li a:hover {
+    color: black;
+}
+
+/* Second Nav Bar (Logo Left, Nav Center, Search Right) */
 .main2 {
     background-color: white;
-}
-.main2 ul{
-    display: flex;
-    justify-content: center;
-    padding: 20px 20px;
-    background-color: rgb(255, 255, 255);
-    height: 60px;
-    font-weight:600;
+    padding: 0 30px;
 }
 
-.main2 ul {
+.main2-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 62px;
+}
+
+/* Logo */
+.logo img {
+    margin-left: 20px;
+    width: 58px;
+    height: 22px;
+}
+
+/* Center Nav Links */
+.nav-links {
+    display: flex;
+    gap: 5px;
     list-style: none;
-    display: flex;
-    gap: 8px;
-   
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.main2 ul li {
-    position: inline;
-}
-
-/* Link styling */
-ul li a {
+.nav-links li a {
     text-decoration: none;
     color: black;
     padding: 6px 12px;
     transition: all 0.3s ease;
+    font-weight: 600;
     border-radius: 4px;
 }
 
-.main1 ul li a:hover{
-/* .main1 ul li.active a  */
-    /* background-color:white; */
-    /* font-stretch: condensed; */
-    text-emphasis: dull;
-    color: black;
-}
-.main2 ul li a:hover,
-.main2 ul li.active a {
-    /* background-color: rgba(228, 226, 226, 0.461);; */
-    text-decoration: underline ;
+.nav-links li a:hover,
+.nav-links li.active a {
+    text-decoration: underline;
+    text-underline-offset: 6px;
     color: black;
 }
 
-/* Title styling */
+/* Search Bar */
+.search-bar {
+    width: 160px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: rgba(228, 226, 226, 0.605);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.search-bar input[type="text"] {
+    width: 100px;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 5px;
+}
+
+.search-bar i {
+    color: black;
+}
+
+/* Icons (Heart and Bag) */
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: black;
+    font-size: 20px;
+}
+
+/* Jordan image */
+.jordan img {
+    float: left;
+    width: 26px;
+    height: 25px;
+    margin-top: 6px;
+    margin-left: 45px;
+}
+
+/* Center Title */
 .title {
     position: absolute;
     top: 50%;
@@ -116,36 +147,28 @@ ul li a {
     font-size: 100px;
     color: black;
     font-style: italic;
-    font-weight:900;
+    font-weight: 900;
 }
 
-/* Button section */
+/* Buttons */
 .button {
     position: absolute;
     top: 62%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
-    /* gap: 20px; */
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .btn {
-    border: 5px solid black;
+    border: 5px solid white;
     padding: 3px 20px;
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 15px;
     transition: all 0.3s ease;
     border-radius: 70px;
-    background-color: black;
+    background-color: white;
     font-weight: bold;
 }
-
-/* .btn:hover {
-    background-color:black;
-    color: white;
-    border-radius: 10px;
-} */
-
