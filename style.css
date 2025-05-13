@@ -8,7 +8,7 @@
 
 /* Header background */
 header {
-    background-color: rgba(228, 226, 226, 0.605);
+    background-color: rgba(228, 226, 226, 0.521);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -99,7 +99,7 @@ header {
     display: flex;
     align-items: center;
     gap: 5px;
-    background-color: rgba(228, 226, 226, 0.605);
+    background-color: rgba(228, 226, 226, 0.521);
     padding: 5px 10px;
     border-radius: 20px;
 }
@@ -120,9 +120,15 @@ header {
 .icons {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 9px;
     color: black;
     font-size: 20px;
+    margin-right: 100px;
+}
+
+.icons:hover{
+    background-color: rgba(228, 226, 226, 0.639);
+    border-radius: 20px;
 }
 
 /* Jordan image */
