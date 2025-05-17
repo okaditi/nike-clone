@@ -6,18 +6,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+.title {
     background-image: url(../image.jpg);
-    height: 70vh;
-    background-size: cover;
-    background-position: center;
-    min-height: 100px;
+    width: 200vh;
+    background-size:contain;
+    background-position-x:center;
+    min-height: 600px;
 }
-
-html, body {
-    overflow-y: scroll;
-  }
-  
 
 /* Header background */
 header {
@@ -155,7 +150,7 @@ header {
 }
 
 /* Center Title */
-.title {
+.title h1{
     position: absolute;
     top: 60%;
     left: 50%;
