@@ -5,8 +5,18 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.space{
+    flex: 1;
+}
+
 .title {
-    background-image: url(../image.jpg);
+    background-image: url(images/image.jpg);
     width: 200vh;
     background-size:contain;
     background-position-x:center;
@@ -141,22 +151,6 @@ header {
     margin-left: 45px;
 }
 
-/*
-.title h1{
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.title h1 {
-    font-size: 100px;
-    color: black;
-    font-style: italic;
-    font-weight: 900;
-} */
-
 .move {
     display: flex;
     list-style: none;
@@ -174,11 +168,8 @@ header {
 }
 
 .content{
-    position:absolute;
     text-align: center;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    margin-top: 120px;
+    margin-top: 40px;
 }
 
 .content h1{
@@ -189,13 +180,13 @@ header {
 
 .content .button {
     position: absolute;
-    margin-top: 45px;
+    margin-top: 40px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
+    display: block;
 }
 
 .content .button .btn{
@@ -205,4 +196,99 @@ header {
     background-color: black;
     text-decoration: none;
     padding: 5px 12px;
+}
+
+.featured{
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.featured .ft{
+    margin-top: 30px;
+    background-image: url(images/ft.jpg);
+    width: 170vh;
+    background-size:contain;
+    background-position-x:center;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.latest{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.latest .lt{
+    margin-top: 30px;
+    background-image: url(images/lt.jpg);
+    width: 182vh;
+    background-size:contain;
+    background-position-x:center;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.sp{
+    margin-top: 120px;
+    margin-left: 60px;
+}
+
+.sp .shop{
+    margin-top: 30px;
+    background-image: url(images/shop.jpg);
+    width: 182vh;
+    background-size:contain;
+    background-position-x:center;
+    min-height: 350px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.footer-divider {
+    border: none;
+    height: 1.5px;
+    background-color: #b4b4b4cc; 
+    margin-top: 80px;
+    margin-left: 65px;
+    width: 90%;
+}
+
+
+footer {
+    margin-top: 50px;
+    background-color:white;
+    text-align: left;
+    padding: 20px;
+    color: #000;
+    margin-left: 25px;
+    display: flex;
+    font-size: 13px;
+}
+
+footer nav {
+    margin-right: 170px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer li.heading {
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+footer .heading{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+  
+footer ul li{
+    padding: 8px;
+    color:gray;
+    list-style: none;
 }
