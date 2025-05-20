@@ -1,14 +1,12 @@
 # 🏈 Nike Singapore Front-End Clone
-![Screenshot 2025-05-18 045854](https://github.com/user-attachments/assets/4fd989b2-91c1-4cde-a9ac-483c7d1d48a0)
 
 Welcome to the **Nike Singapore Front-End Clone**, a web design project built entirely from scratch using just **HTML** and **CSS** — no templates, no shortcuts, just pure structure and styling.
-
-![Screenshot 2025-05-18 045837](https://github.com/user-attachments/assets/d92b994a-bb60-4035-8c2c-1e521b368460)
+![Screenshot 2025-05-18 045854](https://github.com/user-attachments/assets/4fd989b2-91c1-4cde-a9ac-483c7d1d48a0)
 
 
 🔗 **Live Demo:** [nike-cln.netlify.app](https://nike-cln.netlify.app/)  
-🔗 **LinkedIn Post:** [View on LinkedIn](https://lnkd.in/ee5rwmQt)
-
+🔗 **LinkedIn Post:** https://www.linkedin.com/posts/aditi-singh-9ba2201a4_clone-nike-html-activity-7329654874747400193-BTho?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC-6_54BonneYn9qQHrq_D2sYakbq75Tdc8
+![Screenshot 2025-05-18 045837](https://github.com/user-attachments/assets/d92b994a-bb60-4035-8c2c-1e521b368460)
 ---
 
 ## ✨ About the Project
